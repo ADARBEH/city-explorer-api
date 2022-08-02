@@ -39,7 +39,7 @@ app.get('/weather',(req , res) =>{
 
 // app.get('*' , (req,res)=>{
 //     res.status(404).json({'error' : 'page not find'})
-// })
+// })-
 
 app.listen(port , () =>{
     console.log(`this is my port ${port}`)
